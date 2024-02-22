@@ -40,6 +40,7 @@ public class Ejercicio01 {
                     System.out.println("ERROR!!");
             }
         }
+        System.out.println("\n--------Pescaderia de la ciudad de Loja--------");
         System.out.println(info);
     }
 
