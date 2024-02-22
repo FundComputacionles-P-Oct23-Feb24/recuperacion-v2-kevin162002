@@ -1,0 +1,11 @@
+Ejercicio 4
+1. Inicio.
+2. Metodo principal(main) declaramos las variables a usar, estas mismas variables las enviamos con sus valores al metodo
+3. El metodo recibe los datos y procede hacer el procedimiento.
+4. Se declara una variable suma, luego hacemos un ciclo repititivo el cual hacemos que un numero vaya de 1 a 7.
+5. Dentro del mismo cilo se realiza las operacion con los datos antes enviados al metodo como es la multiplicacion del numero del cilo 
+    por un contador que va sumando de dos en dos cada vez que el numero del ciclo se suma y asi mismo estos valores se los divide para
+    un segundo contador que se suma de 7 en 7.
+6. Al final se presenta el numero del ciclo por el numero del primer contador dividido para el segundo contador y el resultado de 
+    todas estas operaciones es sumado y tambien se la presenta al final.
+7. Fin.
