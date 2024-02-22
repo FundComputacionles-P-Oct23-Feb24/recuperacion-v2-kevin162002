@@ -1,0 +1,8 @@
+Ejercicio 3 
+1. Inicio 
+2. Dentro de la funcion principal(main) se hace un ciclo repititivo para determinar la posicion de la fila.
+3. En el mismo ciclo enviamos al metodo los parametros con su posicion recorrida por el ciclo en este caso las filas.
+4. El procedimiento que se realiza en el metodo es declarar un condicional el cual es que si el numero de celulares 
+    es menor o igual a 35 se presentara en pantalla el reporte del mes caso contrario al ser mayor no se presentara nada.
+5. Al final presentamos en pantalla solo los meses cuyos numeros de celular son menores o iguales a 35
+6. Fin

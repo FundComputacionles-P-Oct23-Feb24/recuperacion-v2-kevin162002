@@ -1,0 +1,13 @@
+Ejercicio 1
+1. Inicio.
+2. Primero pedimos al usuario si desea ingresar un vendedor.
+3. Luego le mostramos un menu con la pregunta si Desea agregar un nuevo vendedor?.
+    y los literales 1) para SI y 2) para NO, al no ingresar ninguno de estos dos literales saldra un mensaje de error.
+4. Al ingresar si se enviara al procedimiento donde hacemos las preguntas necesarias para el vendedor 
+   (nombre, numero de libras de camaron, numero de libras de bacalao).
+5. Luego de ingresar todos los datos se volvera a preguntar si desea ingresar un nuevo usuario y asi sucesivamente 
+   hasta que el usuario lo decida.
+6. Al ingresar todos estos datos luego se procede hacer el calculo (camaron 1.1 por el numero de libras que 
+   escogio el usuario) (bacalao 1.20 por el numero de libras que escogio el usuario).
+7. Al final se presentara el reporte con los datos de la persona, el precio de la libra y el total a pagar.
+8. Fin.

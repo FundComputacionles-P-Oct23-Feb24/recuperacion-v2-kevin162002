@@ -1,0 +1,7 @@
+Ejercicio 2
+1. Inicio.
+2. Dentro de la funcion principal(main) se utiliza un ciclo repititivo para determinar la posicion de la fila.
+3. Dentro del mismo ciclo se envia los datos al procedimiento especificando la columna.
+4. En el metodo lo que hacemos es recibir los datos y declarar una variable suma para sumar los puntos antes enviados.
+5. Se realiza la suma y se presenta el reporte de los equipos con los goles obtenidos y la suma de estos mismos.
+6. Fin 
