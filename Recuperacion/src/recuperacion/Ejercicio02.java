@@ -18,9 +18,14 @@ public class Ejercicio02 {
         String equipos[] = {"Barcelona", "Emelec", "Liga de Quito",
             "Independiente del Valle", "Delfin",
             "Macará", "Deportivo Cuenca", "Orense"};
-        int goles[][] = {{1, 2, 2, 5}, {4, 1, 1, 4}, {8, 0, 1, 3},
-        {7, 1, 1, 2}, {6, 0, 1, 2}, {5, 2, 1, 1},
-        {4, 0, 3, 2}, {3, 1, 2, 1}};
+        int goles[][] = {{1, 2, 2, 5}
+                , {4, 1, 1, 4}
+                , {8, 0, 1, 3}
+                , {7, 1, 1, 2}
+                , {6, 0, 1, 2}
+                , {5, 2, 1, 1}
+                , {4, 0, 3, 2}
+                , {3, 1, 2, 1}};
 
         for (int i = 0; i < equipos.length; i++) {
             obtenerReporte(equipos[i], goles[i][0], goles[i][1], goles[i][2], goles[i][3]);
@@ -29,7 +34,7 @@ public class Ejercicio02 {
 
     public static void obtenerReporte(String equipo, int a, int b, int c, int d) {
         int suma = 0;
-        suma = suma + a + b + c + d;
-        System.out.printf("%s con puntos %d %d %d %d tiene un total de puntos de: %d\n", equipo, a, b, c, d, suma);
+        suma = a + b + c + d;
+        System.out.printf("%s con puntos %d,%d,%d,%d tiene un total de puntos de: %d\n", equipo, a, b, c, d, suma);
     }
 }

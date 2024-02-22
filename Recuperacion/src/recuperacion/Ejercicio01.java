@@ -53,9 +53,9 @@ public class Ejercicio01 {
 
         System.out.println("Ingrese su nombre");
         String nombre = scanner.nextLine();
-        System.out.println("Cuantas libras de camaron desea vender?");
+        System.out.println("Cuantas libras de camaron que desea vender?");
         int camaron = scanner.nextInt();
-        System.out.println("Cuantas libras de bacalao desea vender?");
+        System.out.println("Cuantas libras de bacalao que desea vender?");
         int bacalao = scanner.nextInt();
         scanner.nextLine();
         precioCamaron = 1.1 * camaron;
