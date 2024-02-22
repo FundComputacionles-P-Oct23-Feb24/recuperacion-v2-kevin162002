@@ -46,33 +46,40 @@ public class Ejercicio01 {
 
     public static String obtenerInformacion() {
         Scanner scanner = new Scanner(System.in);
-        double precioCamaron = 0;
-        double precioBacalao = 0;
         double total = 0;
         String cadena = "";
+        double multiplicacion = 0;
+        double multiplicacion2 = 0;
         System.out.println("=================================\n");
 
         System.out.println("Ingrese su nombre");
         String nombre = scanner.nextLine();
         System.out.println("Cuantas libras de camaron que desea vender?");
         int camaron = scanner.nextInt();
+        System.out.println("Inegrese el precio por libra del camaron?");
+        double precioCamaron = scanner.nextDouble();
         System.out.println("Cuantas libras de bacalao que desea vender?");
         int bacalao = scanner.nextInt();
-        scanner.nextLine();
-        precioCamaron = 1.1 * camaron;
-        precioBacalao = 1.20 * bacalao;
-        total = precioCamaron + precioBacalao;
+        // scanner.nextLine();
+        System.out.println("Ingrese el precio por libra del bacalao?");
+        double precioBacalao = scanner.nextDouble();
 
-        cadena = String.format("\nNombre: %s\nLibras de camaron: %d ||| "
-                + "Precio: %.1f\nLibras de bacalao: %d ||| Precio: %.1f\n"
-                + "Total a pagar: %.2f",
+        multiplicacion = precioCamaron * camaron;
+        multiplicacion2 = precioBacalao * bacalao;
+        total = multiplicacion + multiplicacion2;
+
+        cadena = String.format("\nNombre: %s\nLibras de camaron: %d "
+                + "||| Precio: %.1f ||| Precio total: %.1f\nLibras de bacalao: "
+                + "%d ||| Precio: %.1f ||| Precio total: %.1f\nTotal a pagar: %.2f",
                 nombre,
                 camaron,
                 precioCamaron,
+                multiplicacion,
                 bacalao,
                 precioBacalao,
+                multiplicacion2,
                 total);
-        
+
         System.out.println("====================================\n");
         return cadena;
     }
